@@ -1,0 +1,10 @@
+include configuraciones.pug
+
+doctype html
+html
+  //- Incluir el archivo de head en el archivo principal
+  include head.pug
+    body
+    include header.pug
+    block contenido
+    include footer.pug

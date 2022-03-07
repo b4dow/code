@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 { font-size: 2.8rem; }
+
+h2 { font-size: 2.3rem; }
+
+h3 { font-size: 2.5rem; }
+
+p { font-size: 1.25rem; }
+ul { list-style:none;}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {
+    color: blueviolet;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.8rem;
+}
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover {
+    color: blueviolet;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url(../image/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+}
+#hero h1{
+    margin-bottom: 30px;
+}
+
+
+#somos-proya .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-proya .texto h2{
+    font-size: 3.8rem;
+    margin-bottom: 20px;
+}
+
+
+#nuestros-programas  {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    
+}
+
+#nuestros-programas .container{
+    padding: 100px 12px; 
+    width: 90%;
+}
+
+#nuestros-programas .nuestros-programas--title {
+    margin-bottom: 30px;
+}
+
+#nuestros-programas .card {
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#nuestros-programas .card h3 {
+    padding-bottom: 20px;
+}
+
+#nuestros-programas h2 {
+    margin-top: 0;
+}
+
+#nuestros-programas p {
+    display: none;
+}
+
+.card:nth-child(1) {
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url('../image/front-end.jpg');
+}
+.card:nth-child(2) {
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url('../image/full-stack.jpg');
+}
+.card:nth-child(3) {
+    background-image: linear-gradient(
+        0deg, rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url('../image/python.jpg');
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 150px 12px;
+}
+
+#caracteristicas li {
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+
+#final  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+#final button {
+    font-size: 1.6rem;
+}
+
+footer {
+    background-color: rgb(230,230,230);
+}
+
+footer p {
+    margin: 0;
+    color: rgb(100,100,100);
+    padding: 12px;
+}
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+

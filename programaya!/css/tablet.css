@@ -1,0 +1,94 @@
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+#somos-proya .container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#somos-proya .texto {
+    width: 50%;
+    max-width: 600px;
+    padding-left: 30px;
+    text-align: initial;
+}
+
+#somos-proya .img-container {
+    background-image: url(../image/somos-proya.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+#nuestros-programas .programas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nuestros-programas p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+#nuestros-programas .nuestros-programas--title {
+    font-size: 3.7rem;
+}
+
+#nuestros-programas .card {
+    padding: 50px;
+    max-width: 400px;
+}
+
+
+#caracteristicas  {
+    width: 100%;
+}
+
+#caracteristicas .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+}
+
+#caracteristicas .caracteristicas--imagen {
+    width: 500px;
+    height: 400px;
+    background-image: url(../image/background-2.jpeg);
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    order: 2;
+}
+
+#caracteristicas .caracteristicas--lista ul {
+    margin-left: 10px;
+    text-align: initial;
+}
+
+#final h2{
+    font-size: 5rem;
+}
+
+#final button {
+    font-size: 3rem;
+}
+
+footer .container {
+    justify-content: flex-end;
+}

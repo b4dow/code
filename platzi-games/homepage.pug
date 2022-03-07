@@ -1,0 +1,15 @@
+
+extends componentes/plantilla.pug
+block contenido 
+    .contenido-container
+        .contenido__nav
+                h2 Menu
+                each enlace in enlaces 
+                    li #{enlace}        
+        .contenido__principal
+            h2 #{titulos[0]}
+            p
+                | Recordings of Jigglypuff’s strange lullabies can be purchased from department stores. These CDs can be found near the bedding area.Although the jewel on its forehead appears to be a different color
+            p 
+                | than those of Alolan Persian, it’s mostly made of the same material.Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.
+            a.boton Ver mas

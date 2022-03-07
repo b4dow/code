@@ -1,0 +1,20 @@
+//- el extends me permite agregar codigo adicional
+extends componentes/plantilla.pug
+block contenido 
+  section.intro
+     //- una interpolacion solo se puede hacer cuando tiene un hijo
+     .intro__imagen: img(src="./images/imagen.png")
+     .intro__contenido
+      h2 #{titulos[0]}
+      p | anma is capable of seeing 360 degrees without having to move
+        | its eyes. It is a great flier that is adept at making sudden
+        span tops and turning midair. This Pokémon uses its flying ability
+      a.boton Leer Mas
+  main.contenido
+    //- Mandar a llamar los mixin con sus argumentos
+    +caja('imagen.png', titulos[1],'Lorem ipsum dolor etsim')
+    +caja('imagen.png', titulos[2],'Lorem ipsum dolor etsim')
+    +caja('imagen.png', titulos[3],'Lorem ipsum dolor etsim')
+      
+
+
